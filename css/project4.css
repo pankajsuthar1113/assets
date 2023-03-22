@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1140px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.gap {
+    gap: 40px;
+}
+
+.header {
+    color: rgba(30, 14, 98, 1);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.h1 {
+    color: rgba(30, 14, 98, 1);
+    max-width: 650px;
+    margin-top: 40px;
+    margin-left: 250px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+
+}
+
+.p1 {
+    margin: 30px 300px;
+    color: rgba(21, 20, 57, 0.4);
+    max-width: 600 px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.button {
+    margin: 30px 430px;
+    padding: 18px 63px;
+    width: 250px;
+    height: 60px;
+    border-color: rgba(233, 58, 125, 1);
+    border-radius: 100px;
+    background-color: rgba(233, 58, 125, 1);
+}
+
+.sign-up {
+    color: rgba(255, 255, 255, 1);
+    background-color: aqua;
+    padding: 3px 18px;
+    width: 84px;
+    height: 26px;
+    border-radius: 100px;
+}
+
+.create-button {
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.p2 {
+    max-width: 170px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4);
+
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.margin {
+    margin-top: 30px;
+    margin-left: 110px;
+}

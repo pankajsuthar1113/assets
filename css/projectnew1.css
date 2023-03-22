@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.background-image {
+    background-image: url("../image/Rectangle\ 18.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.h1 {
+    max-width: 1000px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: white;
+}
+
+.h3 {
+    color: rgba(44, 73, 254, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 135%;
+}
+
+.free-clr {
+    color: rgba(1, 200, 255, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 135%;
+}
+
+.h3:hover::before {
+    content: "";
+    width: 10%;
+    height: 2px;
+    bottom: 0;
+    background-color: black;
+
+
+}
+
+.p1 {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.p2 {
+    max-width: 765px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Yantramanav';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.p3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+}
+
+.logout-button {
+    margin-top: 18px;
+    color: white;
+    background-color: rgba(44, 73, 254, 1);
+    border-radius: 30px;
+    padding: 11px 28px;
+}
+
+.logout-button:hover {
+    background-color: white;
+    color: rgba(44, 73, 254, 1);
+
+}
+
+.get-button {
+    padding: 11px 28px;
+    color: white;
+    background-color: rgba(44, 73, 254, 1);
+    border-radius: 30px;
+}
+
+.get-button:hover {
+    background-color: white;
+    color: rgba(44, 73, 254, 1);
+}
+
+.ml {
+    margin-left: 400px;
+}
+
+.margin-right {
+    margin-right: 62px;
+}
+
+.ml23 {
+    margin-left: 23px;
+}
+
+.mt40 {
+    margin-top: 25px;
+}
